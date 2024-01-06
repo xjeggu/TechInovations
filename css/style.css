@@ -24,11 +24,6 @@ body {
   font-size:100px;
 }
 
-
-
-
-
-
 nav {
   box-sizing: border-box;
   background-color: aqua;
@@ -50,7 +45,7 @@ nav ol{
 nav ol li .navigation{
   box-sizing: border-box;
   float:left;
-  width: 25%;
+  width: 20%;
   text-align: center;
 }
 nav ol li a{
@@ -59,9 +54,35 @@ nav ol li a{
   text-decoration: none;
   color:black;
   padding: 5px 20px;
-  transition: background-color 0.25s ease-in-out
+  transition: background-color 0.5s ease-in-out
 }
 nav ol li a:hover{
   box-sizing: border-box;
   background-color: lightgray;
+}
+
+#topics{
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+#topics article {
+  border: 2px solid #000;
+  border-color: blue;
+  border-radius: 10px;
+  margin-right:20px;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+}
+
+
+#topics article p, #topics article h1, #topics article ul {
+  color:white;
 }
