@@ -85,4 +85,48 @@ nav ol li a:hover{
 
 #topics article p, #topics article h1, #topics article ul {
   color:white;
+  padding-left:10px;
+  padding-right: 10px;
 }
+
+#topics article li {
+  list-style: none;
+}
+
+
+
+
+
+
+#news{
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+#news article {
+  border: 2px solid #000;
+  border-color: blue;
+  border-radius: 10px;
+  margin-right:20px;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+}
+
+
+#news article p, #news article h1, #news article ul {
+  color:white;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+#news article li {
+  list-style: none;
+}
+
