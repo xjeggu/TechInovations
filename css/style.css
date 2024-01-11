@@ -128,5 +128,9 @@ nav ol li a:hover{
 
 #news article li {
   list-style: none;
+}
 
+#newsheader {
+  display: flex;
+  justify-content: center;
 }
