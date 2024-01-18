@@ -140,3 +140,53 @@ nav ol li a:hover{
   background-color: green;
   filter: grayscale(40%)
 }
+
+
+
+
+
+#spotlight{
+  margin-top:10px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+#spotlight article {
+  border: 2px solid #000;
+  border-color: blue;
+  border-radius: 10px;
+  margin-right:20px;
+  width: 500px;
+  text-align: center;
+  background-color: black;
+  margin-top:10px;
+}
+
+
+#spotlight article p, #spotlight article h1, #spotlight article ul {
+  color:white;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+#spotlight article img {
+  width: 95%; /* This makes the image fill the entire width of its container */
+  border-radius: 10px 10px 0 0; /* Add border radius only to the top corners of the image */
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+#spotlight article li {
+  list-style: none;
+}
+
+#spotlight {
+  display: flex;
+  justify-content: center;
+}
