@@ -146,12 +146,10 @@ nav ol li a:hover{
 
 
 #spotlight{
-  margin-top:10px;
-  flex-wrap: wrap;
+  flex: 1;
+  margin-top: 10px;
   display: flex;
-  flex-direction: row;
-  max-height: 500px;
-  margin-bottom: 5px;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
 }
@@ -176,8 +174,8 @@ nav ol li a:hover{
 }
 
 #spotlight article img {
-  width: 95%; /* This makes the image fill the entire width of its container */
-  border-radius: 10px 10px 0 0; /* Add border radius only to the top corners of the image */
+  width: 95%;
+  border-radius: 10px 10px 0 0;
   padding-left:10px;
   padding-right: 10px;
 }
@@ -232,9 +230,9 @@ nav ol li a:hover{
 }
 
 #downloads .copyright {
-  color: #ccc; /* Adjust the color as needed */
-  font-size: 14px; /* Adjust the font size as needed */
-  margin-top: 5px; /* Add space between the description and copyright */
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 
@@ -242,3 +240,36 @@ nav ol li a:hover{
   background-color: #2980b9;
 }
 
+
+
+#video {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#video iframe {
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
