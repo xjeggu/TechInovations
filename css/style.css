@@ -24,6 +24,9 @@ body {
   font-size:100px;
 }
 
+
+
+
 nav {
   box-sizing: border-box;
   background-color: aqua;
@@ -187,6 +190,16 @@ nav ol li a:hover{
 }
 
 #spotlight {
+  display: flex;
+  justify-content: center;
+}
+
+#mainheader {
+  display: flex;
+  justify-content: center;
+}
+
+#spotlightheader {
   display: flex;
   justify-content: center;
 }
