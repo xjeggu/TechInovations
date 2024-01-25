@@ -133,7 +133,7 @@ nav ol li a:hover{
   list-style: none;
 }
 
-#newsheader {
+#heading {
   display: flex;
   justify-content: center;
 }
@@ -149,12 +149,10 @@ nav ol li a:hover{
 
 
 #spotlight{
-  margin-top:10px;
-  flex-wrap: wrap;
+  flex: 1;
+  margin-top: 10px;
   display: flex;
-  flex-direction: row;
-  max-height: 500px;
-  margin-bottom: 5px;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
 }
@@ -179,8 +177,8 @@ nav ol li a:hover{
 }
 
 #spotlight article img {
-  width: 95%; /* This makes the image fill the entire width of its container */
-  border-radius: 10px 10px 0 0; /* Add border radius only to the top corners of the image */
+  width: 95%;
+  border-radius: 10px 10px 0 0;
   padding-left:10px;
   padding-right: 10px;
 }
@@ -192,6 +190,90 @@ nav ol li a:hover{
 #spotlight {
   display: flex;
   justify-content: center;
+}
+
+
+
+#downloads {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+
+#downloads .download-item {
+  border: 2px solid #000;
+  border-color: blue;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+}
+
+#downloads .download-item p, #downloads .download-item h3 {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#downloads .download-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#downloads .copyright {
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+#downloads .download-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+#video {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#video iframe {
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 #mainheader {
