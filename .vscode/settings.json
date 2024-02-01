@@ -2,5 +2,7 @@
     "workbench.iconTheme": "vs-seti",
     "liveServer.settings.port": 83,
       "editor.fontFamily": "FiraCode Nerd Font",
-      "editor.fontLigatures": true
+      "editor.fontLigatures": true,
+      "fiveServer.highlight": true,
+      "fiveServer.injectBody": true
 }
